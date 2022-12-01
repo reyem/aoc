@@ -1,0 +1,14 @@
+{
+  "name": "december-1.1",
+  "version": "1.0.0",
+  "description": "aoc puzzle 1 - december 01 2022",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "marco.meyer",
+  "license": "ISC",
+  "dependencies": {
+    "fs": "^0.0.1-security"
+  }
+}
