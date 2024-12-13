@@ -64,7 +64,7 @@ public class Day8 {
                                 }
                                 while(posj2.x() >= 0 && posj2.x() < charMap[0].length && posj2.y() >= 0 && posj2.y() < charMap.length){
                                     antinodes.add(posj2);
-                                    posj2 = new Position(posj2.x() + deltaX, posj2.y() + deltaY);
+                                    posj2 = new Position(posj2.x() - deltaX, posj2.y() - deltaY);
                                 }
                             }else {
                                 int deltaX = posi.x() - posj.x();
